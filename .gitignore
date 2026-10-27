@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit secrets and local configuration
+.streamlit/secrets.toml
+.env
+.env.*
+
+# Local datasets and generated model files
+data/
+datasets/
+*.csv
+*.parquet
+*.xlsx
+*.pkl
+*.joblib
+!tests/fixtures/
+!tests/fixtures/sample_psx_synthetic.csv
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
